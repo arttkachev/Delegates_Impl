@@ -78,8 +78,8 @@ namespace delegates {
   };
 }
 
-void myFunc(int32_t value, int32_t value2) {
-  std::cout << value + value2 << std::endl;
+void myFunc(int32_t const value1, int32_t const value2) {
+  std::cout << value1 + value2 << std::endl;
 }
 
 int main() {
